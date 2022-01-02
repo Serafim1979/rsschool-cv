@@ -84,17 +84,32 @@ a {
     color:rgba(214, 218, 211, 0.822);
 }
 
-.footer {
-    margin-top: 15px;
-}
-
-
 .my-face {
     padding-left: 60px;
 }
 
 .round {
     border-radius: 50%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    background-color: #737e7d;
+    color: #fff;
+}
+
+.left-content {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    color: #fff;
+}
+.right-content {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
 }
 
 
